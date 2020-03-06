@@ -2,7 +2,7 @@
 title: "Robotics and Computer Vision"
 collection: teaching
 type: "Master course"
-permalink: /teaching/2013-2018-roboticsandvision.md
+permalink: /teaching/2013-2018-roboticsandvision
 venue: "Università degli Studi di Milano - Bicocca"
 date: 2014-01-01
 location: "Milan, Italy"
