@@ -9,8 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Short Bio
-=====
+## Short Bio
 
 My research experience is focused on how to model the vehicle surroundings, using computer vision and LIDAR based approaches. In particular, my activity is connected to the vehicle localization problem, which is fundamental to safely navigate Intelligent Vehicles in areas shared with human drivers. The final purpose is to provide a reliable vehicle awareness with respect to the surrounding environment. 
 
@@ -21,8 +20,8 @@ I have participated and supervised the creation of the whole system as well as t
 The aforementioned research activities allowed me to deeply investigate robotics and computer vision techniques such as Kalman and particle filtering, HMM models, Visual Odometry systems and several convolutional neural network applications. 
 
 
-Education
-======
+## Education
+
 * B.S. in Computer Science, Università degli Studi di Milano-Bicocca, 2008
   * Thesis Title: A hierarchic Trajectory Planner for Indoor Robots
 * M.S. in Computer Science, Università degli Studi di Milano-Bicocca, 2011
@@ -30,8 +29,7 @@ Education
 * Ph.D in Computer Science, Università degli Studi di Milano-Bicocca, 2017
   * Dissertation Title: Matching heterogeneous sensing pipelines to digital maps for ego-vehicle localization
 
-During the PhD program I attended the following courses and summer schools: 
-======
+## During the PhD program I attended the following courses and summer schools: 
 
 * Parallel Computing Using MPI and OpenMP - Cineca 17-25 June 2013. 
 * 1st Summer School on Critical Embedded Systems, 2-11 July 2013, Toulouse – France. 
@@ -42,8 +40,7 @@ During the PhD program I attended the following courses and summer schools:
 * Advanced Techniques for Combinatorial Algorithms - UNIMIB DISCO PhD Course. 
 * Paradigms and Approaches to Computer Security - UNIMIB DISCO PhD Course.   
 
-Postdoctoral Experience
-=====
+## Postdoctoral Experience
 
 After the 4-years PhD period I worked as Research Associate in the Informatics and Robotics for Automation group (IRALAB) of the “Università degli Studi di Milano – Bicocca” in the following projects: 
 
@@ -52,12 +49,12 @@ After the 4-years PhD period I worked as Research Associate in the Informatics a
 * 2019 (ongoing) – "Reliable localization algorithms for autonomous driving car", here I was awarded with a Marie Skłodowska-Curie Actions research grant within the GOT ENERGY TALENT (GET) fellowship programme [link](http://gotenergytalent.uah.es/member/augusto-luis-ballardini/ "MSCA-COFUND")
   
 
-Knowledge Areas: 
-====== 
+## Knowledge Areas: 
+
 Localization, ITS, autonomous driving, point cloud registration, 3D reconstruction with stereo cameras, visual odometry, conditional random fields, hidden markov models, computer vision, image geometry and transformations, template matching, particle swarm optimization, Robotic Operating System (ROS), montecarlo localization within full 6DoF maps, path planning. 
 
-Skills
-======
+## Skills
+
 * 3D pose estimation and Visual Odometry algorithms 
 * Computer Vision, Image Formation, Geometry and Projection 
 * Kalman filtering, particle filtering 
@@ -68,8 +65,7 @@ Skills
 * I worked in several dataset acquisition and annotation projects in cooperation with the IRALAB team. The most important ones are related to the “A4 Highway dataset” collected in 2017 and the “Intersection Ground Truth and Training Set” sequences based on the KITTI Dataset.  
 
 
-Complementary skills & competencies 
-=====
+## Complementary skills & competencies 
 
 I worked and organized the following research and experimental/on-the-field activities, including public demos in different environments (closed areas, public areas, rural areas). 
 
@@ -81,8 +77,7 @@ I worked and organized the following research and experimental/on-the-field acti
 * January 2011 Outdoor autonomous car driving demo with RAI 3 (national television). In this demo we recoded for RAI 3 some sequences of autonomous driving within the University of Milano -Bicocca campus. 
 * November 2010 Indoor autonomous car driving demo at the Electrical Intelligent Vehicles Fair 2010 (EIV2010). In this demo we had our autonomous car driving people between stands of the fair for 4 days, moving through small spaces in a highly crowded environment. 
 
-Participation in scientific projects and role in them 
-=====
+## Participation in scientific projects and role in them 
 
 * 2017 – Collaboration with the National Institute for Nuclear Physics (INFN) group on the MOSCAB experiment. I was responsible for the development of the computer vision toolkit. The tool allowed the MOSCAB research group to identify the 3DoF position of bubbles inside a double chamber system, filled with Freon and water, optimizing the refraction indices of the materials in an uncalibrated stereo camera configuration. 
 During this project I had the opportunity to work with a completely different team, composed mainly of physicist and material science experts. 
@@ -91,14 +86,14 @@ During this project I had the opportunity to work with a completely different te
 * 2012 – OMMAVE Project - Multi Sensor Odometry for autonomous vehicles. Università degli studi di Milano – Bicocca. I was responsible for the development of a 3D world simulator, necessary for the testing of a single-plane LIDAR-based localization algorithm. 
 
 
-Teaching
-======
+## Teaching
+
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Publications
-======
+## Publications
+
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
