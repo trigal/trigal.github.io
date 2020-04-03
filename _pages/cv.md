@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-## Short Bio
+## Bio
 
 My research experience is focused on how to model the vehicle surroundings, using computer vision and LIDAR based approaches. In particular, my activity is connected to the vehicle localization problem, which is fundamental to safely navigate Intelligent Vehicles in areas shared with human drivers. The final purpose is to provide a reliable vehicle awareness with respect to the surrounding environment. 
 
