@@ -8,11 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-I am a Marie Curie Skłodowska-Curie Fellow working in the INVETT Research Group of the Universidad de Alcala, Spain. 
+Bio
+------
 
-My research interests are in the field of Robotics and Computer Vision with application to autonomous systems and self-driving cars, in particular to localization algorithms. 
-
-Before joining the INVETT group I worked at IRALAB (Università degli Studi di Milano - Bicocca) as a Postdoctoral Research Fellow. 
+Augusto Luis Ballardini was born in Buenos Aires, Argentina in 1984. He received the MSc and PhD degrees in Computer Science from the University of Milano - Bicocca, Italy in 2012 and 2017 respectively. After two years of post-doctoral activities in [link](http://www.ira.disco.unimib.it "IRALAB") reserach group, in 2019 he joined the [link](http://invett.es "INVETT") Research Group of the Universidad de Alcalá, Spain, where he was awarded with a Marie Skłodowska-Curie Actions research grant within the GOT ENERGY TALENT (GET) fellowship programme. Here he is currently developing his ``Reliable localization algorithms for autonomous driving car'' project. From 2015, he is an IEEE and ITS Society Fellow. His research focuses on autonomous vehicles localization and data-fusion systems, leveraging heterogeneous data sources such as digital maps, LiDAR and images data together with computer vision and machine learning algorithms.
 
 Contacts
 ------
