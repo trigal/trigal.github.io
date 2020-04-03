@@ -18,6 +18,6 @@ The topics I covered were:
 
 All the classes have been given in Spanish language together with the colleague Iván García Daza who have taught the control theory and relative practice exercises.
 
-<img src='/images/vehiculosInteligentes01.png' height="300" alt="The little RC car we used for final practical exam">
+<img src='/images/vehiculosInteligentes01.jpg' height="300" alt="The little RC car we used for final practical exam">
 <br>
 <img src='/images/vehiculosInteligentes02.png' height="300" alt="First Class">
