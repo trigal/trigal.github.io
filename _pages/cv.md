@@ -9,14 +9,26 @@ redirect_from:
 
 {% include base_path %}
 
+Short Bio
+=====
+
+My research experience is focused on how to model the vehicle surroundings, using computer vision and LIDAR based approaches. In particular, my activity is connected to the vehicle localization problem, which is fundamental to safely navigate Intelligent Vehicles in areas shared with human drivers. The final purpose is to provide a reliable vehicle awareness with respect to the surrounding environment. 
+
+Towards this goal, in the last few years I developed a probabilistic framework for ego-vehicle localization called Road Layout Estimation framework. Its main contribution is the synergistic exploitation of heterogeneous sensing pipelines in order to produce accurate lane-level vehicle localization in both difficult urban contexts and highway scenarios. The framework has been tightly coupled with the OpenStreetMap service, allowing the integration of priors into the localization process.  
+
+I have participated and supervised the creation of the whole system as well as the development of the detection components. The system leverages the interaction with the road cartography, building facades and road intersections, proving also its localization versatility by detecting the vehicle ego-lane in highways contexts. Moreover, the research has revealed the possibility to detect from images the number of arms and configuration entering the junction. The achievements were verified using well-known datasets such as KITTI or, if feasible, using the university's autonomous vehicle.  
+
+The aforementioned research activities allowed me to deeply investigate robotics and computer vision techniques such as Kalman and particle filtering, HMM models, Visual Odometry systems and several convolutional neural network applications. 
+
+
 Education
 ======
 * B.S. in Computer Science, Università degli Studi di Milano-Bicocca, 2008
-** Thesis Title: A hierarchic Trajectory Planner for Indoor Robots
+  * Thesis Title: A hierarchic Trajectory Planner for Indoor Robots
 * M.S. in Computer Science, Università degli Studi di Milano-Bicocca, 2011
-** Thesis Title: 6DoF Monte Carlo Localization in a 3D World with Laser Range Finders 
+  * Thesis Title: 6DoF Monte Carlo Localization in a 3D World with Laser Range Finders 
 * Ph.D in Computer Science, Università degli Studi di Milano-Bicocca, 2017
-** Dissertation Title: Matching heterogeneous sensing pipelines to digital maps for ego-vehicle localization
+  * Dissertation Title: Matching heterogeneous sensing pipelines to digital maps for ego-vehicle localization
 
 During the PhD program I attended the following courses and summer schools: 
 ======
