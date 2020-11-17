@@ -23,7 +23,7 @@ The aforementioned research activities allowed me to deeply investigate robotics
 ## Education
 
 * B.S. in Computer Science, Università degli Studi di Milano-Bicocca, 2008
-  * Thesis Title: A hierarchic Trajectory Planner for Indoor Robots
+  * Thesis Title: A hierarchic Trajectory Planner for Indoor Robots [download](https://trigal.github.io/files/BallardiniMSc2012.pdf)
 * M.S. in Computer Science, Università degli Studi di Milano-Bicocca, 2011
   * Thesis Title: 6DoF Monte Carlo Localization in a 3D World with Laser Range Finders 
 * Ph.D in Computer Science, Università degli Studi di Milano-Bicocca, 2017
