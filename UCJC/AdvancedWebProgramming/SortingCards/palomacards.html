@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card {
+            width: 100%;
+        }
+
+        .mytable {
+            width: 100%;
+            border: 0;
+            border-spacing: 20px;
+        }
+
+        td {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!--
+
+        Sorting playing cards using DOM (Document Object Model)
+
+    -->
+
+    <div id="container">
+        <!-- Create here a *TABLE* containing <1 row> and <13 columns>. 
+             Each column will contain 1 playing card, you can find the images in the images
+             folder.
+
+             Shuffle the cards! We will order them later! 
+
+             Remember to add *something* to allow for ordering the elements ;-) 
+
+             Use the already defined CSS to apply style to the table and the images.
+
+        -->
+
+        <!-- INSERT TABLE HERE -->
+        <table id="bubblesort" class="mytable">
+            <tr>
+                <td colspan="13"><a href="https://www.geeksforgeeks.org/bubble-sort">Bubble Sort</a></td>
+            </tr>
+            <tr>
+                <td id='13'><img class='card' src="img/king_of_hearts.png"></td>
+                <td id='12'><img class='card' src="img/queen_of_hearts.png"></td>
+                <td id='11'><img class='card' src="img/jack_of_hearts.png"></td>
+                <td id='10'><img class='card' src="img/10_of_hearts.png"></td>
+                <td id='9'><img class='card' src="img/9_of_hearts.png"></td>
+                <td id='8'><img class='card' src="img/8_of_hearts.png"></td>
+                <td id='7'><img class='card' src="img/7_of_hearts.png"></td>
+                <td id='6'><img class='card' src="img/6_of_hearts.png"></td>
+                <td id='5'><img class='card' src="img/5_of_hearts.png"></td>
+                <td id='4'><img class='card' src="img/4_of_hearts.png"></td>
+                <td id='3'><img class='card' src="img/3_of_hearts.png"></td>
+                <td id='2'><img class='card' src="img/2_of_hearts.png"></td>
+                <td id='1'><img class='card' src="img/ace_of_hearts.png"></td>
+            </tr>
+        </table>
+
+        <table id="insertionsort" class="mytable">
+            <tr>
+                <td colspan="13"><a href="https://www.geeksforgeeks.org/insertion-sort">Insertion Sort</a></td>
+            </tr>
+            <tr>
+                <td ad='13'><img class='card' src="img/king_of_hearts.png"></td>
+                <td ad='12'><img class='card' src="img/queen_of_hearts.png"></td>
+                <td ad='11'><img class='card' src="img/jack_of_hearts.png"></td>
+                <td ad='10'><img class='card' src="img/10_of_hearts.png"></td>
+                <td ad='9'><img class='card' src="img/9_of_hearts.png"></td>
+                <td ad='8'><img class='card' src="img/8_of_hearts.png"></td>
+                <td ad='7'><img class='card' src="img/7_of_hearts.png"></td>
+                <td ad='6'><img class='card' src="img/6_of_hearts.png"></td>
+                <td ad='5'><img class='card' src="img/5_of_hearts.png"></td>
+                <td ad='4'><img class='card' src="img/4_of_hearts.png"></td>
+                <td ad='3'><img class='card' src="img/3_of_hearts.png"></td>
+                <td ad='2'><img class='card' src="img/2_of_hearts.png"></td>
+                <td ad='1'><img class='card' src="img/ace_of_hearts.png"></td>
+            </tr>
+        </table>
+
+    </div>
+
+    <script>
+
+        /*
+            The script will sort the tables using the simple Bubble Sort algorithm.
+            Use the printme() function to log to console the 'current' order of the cards.
+
+        */
+
+        let startTime, endTime;
+        let speed = 5;
+
+        function start() {
+            startTime = new Date();
+        };
+
+        function end() {
+            endTime = new Date();
+            var timeDiff = endTime - startTime; //in ms
+            // strip the ms
+            timeDiff /= 1000;
+
+            // get seconds 
+            var seconds = Math.round(timeDiff);
+            console.log(seconds + " seconds");
+        }
+
+
+        // Do not change this function
+        function printme() {
+            let table = document.getElementById('bubblesort');
+            let vector = Array.from(table.rows[1].cells);
+            let str = ""
+            for (let i = 0; i < 12; i++) {
+                str += vector[i].getAttribute('id') + ' ';
+            }
+            console.log(str);
+        }
+
+        // Do not change this function
+        const timer = ms => new Promise(res => setTimeout(res, ms));
+
+        // Edit this function
+        async function sort() {
+
+
+            start();
+                        let mytab = document.getElementById("bubblesort");
+            for (let j = 0; j < 12; j++) {
+                for (let i = 0; i < 12 - j; i++) {
+                    await timer(speed);
+                    let a = mytab.rows[1].cells[i].getAttribute("id");
+                    let b = mytab.rows[1].cells[i + 1].getAttribute("id");
+
+                    if (parseInt(a) > parseInt(b)) {
+                        let temp = mytab.rows[1].cells[i].cloneNode(true);
+                        mytab.rows[1].cells[i + 1].after(temp);
+                        mytab.rows[1].cells[i].remove();
+                    }
+                    printme();
+                }
+            }
+            end();
+
+
+            start();
+            let mytabl = document.getElementById("insertionsort");
+            {
+                for (let j = 0; j < 12; j++) {
+                    for (let i = 1; i < 13; i++) {
+                        await timer(speed);
+                        let key = parseInt(mytabl.rows[1].cells[i].getAttribute("ad"));
+                        let j = i - 1;
+                        while ((j >= 0) && (parseInt(mytabl.rows[1].cells[j].getAttribute("ad")) > key)) {
+                            let temp = mytabl.rows[1].cells[j].cloneNode(true);
+                            mytabl.rows[1].cells[i].after(temp);
+                            mytabl.rows[1].cells[j].remove();
+                        }
+                    }
+                    printme();
+                }
+            }
+            end();
+
+
+        }
+
+        // Wait a little (1 second, 1000 milliseconds) before calling the function sort(). 
+        // In this way, you will see the unsorted cards as you put them in the HTML part.
+        setTimeout(sort, 1000);
+    </script>
+
+</body>
+
+</html>
