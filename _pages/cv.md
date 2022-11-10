@@ -46,7 +46,8 @@ After the 4-years PhD period I worked as Research Associate in the Informatics a
 
 * 2017 – Autonomously driven road vehicles (Veicoli stradali a guida autonoma, university project code 16A129). 
 * 2018 – Perception for autonomously driven vehicles (Percezione per veicoli a guida autonoma, university project code 17A110). 
-* 2019 (ongoing) – "Reliable localization algorithms for autonomous driving car", here I was awarded with a Marie Skłodowska-Curie Actions research grant within the GOT ENERGY TALENT (GET) fellowship programme [link](http://gotenergytalent.uah.es/member/augusto-luis-ballardini/ "MSCA-COFUND")
+* 2019 (ongoing) – "Reliable localization algorithms for autonomous driving car", here I was awarded with Marie Skłodowska-Curie Actions research grant within the GOT ENERGY TALENT (GET) fellowship programme [link](http://gotenergytalent.uah.es/member/augusto-luis-ballardini/ "MSCA-COFUND")
+* 2022-2024 (ongoing) - "Effective and cooperative localization algorithms for self-driving cars", research project awarded by the spanish ministry of Science Innovation and Universities under Maria Zambrano/NextGenerationEU grants. These grants were awarded following a competitive and objective selection process to attract international talent. 
   
 
 ## Knowledge Areas: 
