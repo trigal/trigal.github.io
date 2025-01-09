@@ -11,9 +11,11 @@ redirect_from:
 Short Bio
 ------
 
-Augusto Luis Ballardini was born in Buenos Aires, Argentina in 1984. He received the MSc and PhD degrees in Computer Science from the University of Milano - Bicocca, Italy in 2012 and 2017 respectively. After two years of post-doctoral activities in [IRALAB](http://www.ira.disco.unimib.it "IRALAB") research group, in 2019 he joined the [INVETT](http://invett.es "INVETT") Research Group of the Universidad de Alcalá, Spain, where he was awarded with a Marie Skłodowska-Curie Actions research grant within the GOT ENERGY TALENT (GET-COFUND) fellowship programme. After, in 2022 I was awarded with a research grant within the Maria Zambrano/NextGenerationEU project of the spanish ministry of Science Innovation and Universities. 
+Augusto Luis Ballardini was born in Buenos Aires, Argentina, in 1984. He received his MSc and PhD degrees in Computer Science from the University of Milano - Bicocca, Italy, in 2012 and 2017, respectively. After two years of post-doctoral activities in the [IRALAB](http://www.ira.disco.unimib.it "IRALAB") research group, in 2019, he joined the [INVETT](http://invett.es "INVETT") Research Group at the Universidad de Alcalá, Spain, where he was awarded a Marie Skłodowska-Curie Actions research grant within the GOT ENERGY TALENT (GET-COFUND) fellowship programme. Subsequently, in 2022, he was awarded a three-year research grant under the Maria Zambrano/NextGenerationEU project of the Spanish Ministry of Science, Innovation and Universities.
 
-From 2015, he is an IEEE and ITS Society Member. His research focuses on autonomous vehicles localization and data-fusion systems, leveraging heterogeneous data sources such as digital maps, LiDAR and images data together with computer vision and machine learning algorithms.
+In 2024, the Universidad de Alcalá granted him a position as a professor (Profesor Ayudante Doctor) through the University Talent Retention Program, and he began this position in January 2025. Additionally, in 2024, he received the Acreditación Nacional para el acceso al Cuerpo de Profesor Titular de Universidad (National Accreditation for Access to the Rank of University Professor).
+
+Since 2015, he has been an IEEE and ITS Society member. His research focuses on autonomous vehicle localization and data-fusion systems, leveraging heterogeneous data sources such as digital maps, LiDAR, and image data, along with computer vision and machine learning algorithms.
 
 Contacts
 ------
