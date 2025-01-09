@@ -4,7 +4,6 @@ collection: teaching
 type: "Master course"
 permalink: /teaching/2022-
 venue: "Universidad de Alcala"
-date: 2022-nowadays
 location: "Alcala de Henares, Spain"
 ---
 
