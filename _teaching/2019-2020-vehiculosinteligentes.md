@@ -4,7 +4,6 @@ collection: teaching
 type: "Master course"
 permalink: /teaching/2019-2020-vehiculosinteligentes
 venue: "Universidad de Alcala"
-date: 2020-2021
 location: "Alcala de Henares, Spain"
 ---
 
