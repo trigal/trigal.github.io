@@ -4,11 +4,11 @@ collection: teaching
 type: "Master course"
 permalink: /teaching/2019-2020-vehiculosinteligentes
 venue: "Universidad de Alcala"
-date: 2020-02-01
+date: 2020-2021
 location: "Alcala de Henares, Spain"
 ---
 
-In 2020 during the academic year 2019-20 I have been teaching in the Vehiculos Inteligentes course (Intelligent Vehicles) of the Máster Universitario en Ingeniería de Telecomunicación (Telecommunication Engineering Master Course). 
+During the academic year 2019-20 and 2020-21 I have been teaching in the Vehiculos Inteligentes course (Intelligent Vehicles) of the Máster Universitario en Ingeniería de Telecomunicación (Telecommunication Engineering Master Course). 
 
 The topics I covered were:
 
