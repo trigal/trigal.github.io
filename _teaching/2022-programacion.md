@@ -1,5 +1,5 @@
 ---
-title: "C Programming Course" - PROGRAMACIÓN (350009)"
+title: "C Programming Course - PROGRAMACIÓN (350009)"
 collection: teaching
 type: "Undergraduate"
 permalink: /teaching/2022-
