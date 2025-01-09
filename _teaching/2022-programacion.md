@@ -1,7 +1,7 @@
 ---
-title: "Vehiculos Inteligentes"
+title: "C Programming Course" - PROGRAMACIÓN (350009)"
 collection: teaching
-type: "Master course"
+type: "Undergraduate"
 permalink: /teaching/2022-
 venue: "Universidad de Alcala"
 location: "Alcala de Henares, Spain"
