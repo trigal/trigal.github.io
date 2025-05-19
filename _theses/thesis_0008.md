@@ -1,7 +1,7 @@
 ---
 title: "Implementation of a motion planning algorithm for the Ackermann kinematics USAD vehicle"
 student: "Fabio Nava"
-date: 2017-01-01
+date: 2018-01-01
 layout: single
 permalink: /theses/thesis_0008/
 category: undergraduate
