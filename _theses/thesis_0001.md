@@ -6,6 +6,7 @@ layout: single
 permalink: /theses/thesis_0001/
 category: Bachelor Thesis - TFG
 university: UNIMIB
+status: completed
 ---
 
 # Embedded Systems Development with ARM  

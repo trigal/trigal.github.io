@@ -7,19 +7,19 @@ author_profile: true
 
 # Bachelor's and Master's Theses (TFG & TFM)  
 
-🇬🇧 English: Welcome to the repository of past and available theses at the University of Alcalá (UAH). Here, students can explore previous research projects, discover current lines of research, and find opportunities for their own thesis.
-Additionally, this section includes projects carried out by students from partner universities. If you are a student at UAH and wish to collaborate with the University of Milano-Bicocca (UNIMIB), feel free to contact me via email. Similarly, Italian students from UNIMIB who are interested in conducting research at UAH are welcome to reach out for more details.
-Below, you will find a list of ongoing research topics and available thesis proposals, followed by a compilation of completed theses from previous years.__
+🇬🇧 English: Welcome to the list of ongoing and available thesis projects that students can carry out with me. This is not an exhaustive list and many research ideas are yet to be explored. If you have a project idea or wish to discuss potential topics, feel free to reach out! I strongly encourage students to propose innovative research directions and explore new possibilities. Additionally, this section includes projects conducted in collaboration with partner universities. If you are a student at the University of Alcalá (UAH) and wish to collaborate with the University of Milano-Bicocca (UNIMIB), feel free to contact me via email. Similarly, Italian students from UNIMIB interested in research opportunities at UAH are welcome to get in touch. Below, you’ll find a selection of ongoing research topics and thesis proposals, followed by a compilation of completed theses from previous years.
 
-🇪🇸 Español: Bienvenido al repositorio de trabajos de fin de grado y máster de la Universidad de Alcalá (UAH). Aquí, los estudiantes pueden explorar proyectos de investigación previos, conocer las líneas de investigación activas y encontrar oportunidades para desarrollar su propia tesis.
-Además, esta sección incluye proyectos realizados por estudiantes de universidades asociadas. Si eres estudiante de la UAH y deseas colaborar con la Universidad de Milán-Bicocca (UNIMIB), no dudes en contactarme por correo electrónico. Del mismo modo, los estudiantes italianos de la UNIMIB que estén interesados en realizar investigaciones en la UAH son bienvenidos a ponerse en contacto para más detalles.
-A continuación, se presenta una lista de temas de investigación en curso y propuestas de tesis disponibles, seguida de un listado de trabajos ya completados en años anteriores.__
+---
 
-🇮🇹 Italiano: Benvenuto nel repository delle tesi di laurea e di master dell'Università di Alcalá (UAH). Qui, gli studenti possono esplorare progetti di ricerca passati, scoprire le linee di ricerca attuali e trovare opportunità per sviluppare la propria tesi.
-Inoltre, questa sezione include progetti realizzati da studenti di università partner. Se sei uno studente dell’UAH e desideri collaborare con l’Università di Milano-Bicocca (UNIMIB), non esitare a contattarmi via e-mail. Allo stesso modo, gli studenti italiani della UNIMIB che sono interessati a svolgere ricerche presso la UAH sono invitati a mettersi in contatto per ulteriori dettagli.
-Di seguito troverai un elenco di argomenti di ricerca in corso e di proposte di tesi disponibili, seguito da una raccolta di tesi.__ completate negli anni precedenti.
+🇪🇸 Español: Bienvenido a la lista de proyectos de tesis en curso y disponibles que los estudiantes pueden desarrollar conmigo. Esta lista no es definitiva, hay muchas ideas de investigación por explorar. Si tienes una propuesta de proyecto o deseas discutir posibles temas, no dudes en escribirme. Animo a los estudiantes a presentar ideas innovadoras y a explorar nuevas oportunidades de investigación. Además, esta sección incluye proyectos realizados en colaboración con universidades asociadas. Si eres estudiante de la Universidad de Alcalá (UAH) y deseas colaborar con la Universidad de Milán-Bicocca (UNIMIB), puedes contactarme por correo electrónico. Del mismo modo, los estudiantes italianos de la Università degli Studi di Milano-Bicocca interesados en oportunidades de investigación en la UAH pueden ponerse en contacto. A continuación, encontrarás una selección de líneas de investigación activas y propuestas de tesis disponibles, seguida de un listado de trabajos completados en años anteriores.
+
+---
+
+🇮🇹 Italiano: Benvenuto nell’elenco dei progetti di tesi attuali e disponibili che gli studenti possono sviluppare con me. Questo elenco non è completo, possiamo esplorare molte idee di ricerca. Se hai un’idea e vuoi discutere di potenziali argomenti, sentiti libero di contattarmi. Questa sezione include progetti condotti in collaborazione con l'Università degli Studi di Milano-Bicocca. Se sei uno studente dell’Università di Alcalá (UAH) e desideri collaborare con l’Università di Milano-Bicocca (UNIMIB), puoi contattarmi via email. Allo stesso modo, invito gli studenti UNIMIB interessati ad opportunità di ricerca presso la UAH ad inviarmi una email. Di seguito troverai una selezione di linee di ricerca attive e proposte di tesi disponibili, seguita da un elenco di tesi completate negli anni precedenti.
+
+---
 
 ## **Previous Theses List**  
 {% for post in site.theses %}
-- **[{{ post.title }}]({{ post.url }})** – Category: {{ post.category }} Student: {{ post.student }}
+- **[{{ post.title }}]({{ post.url }})** Status: {{ post.status }} – Category: {{ post.category }} - Student: {{ post.student }} 
 {% endfor %}
