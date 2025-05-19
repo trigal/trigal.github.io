@@ -11,5 +11,5 @@ Welcome to the repository of past and available theses at the University of Alca
 
 ## **Previous Theses List**  
 {% for post in site.theses %}
-- **[{{ post.title }}]({{ post.url }})** – Supervisor: {{ post.tutor }}
+- **[{{ post.title }}]({{ post.url }})** – Category: {{ post.category }} Student: {{ post.student }}
 {% endfor %}
