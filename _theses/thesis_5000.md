@@ -1,7 +1,7 @@
 ---
 title: "Sistema de Escaneo y Notificación de Trabajadores en Infraestructuras sin Necesidad de Etiquetas ni Localizadores (SENTINEL)"
 student: "Disponible"
-date: 2025-01-01
+date: 2025-05-01
 layout: single
 permalink: /theses/sentinel/
 category: "Available Thesis Proposal"
