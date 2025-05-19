@@ -1,5 +1,5 @@
 ---
-title: "A laser device and its calibration for the 3D Mapping Ground Truth project"
+title: "3D Mapping Ground Truth"
 student: "Daniele Fiorenti"
 date: 2013-01-01
 layout: single
