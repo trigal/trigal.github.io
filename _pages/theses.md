@@ -20,6 +20,13 @@ author_profile: true
 ---
 
 ## **Previous Theses List**  
-{% for post in site.theses %}
-- **[{{ post.title }}]({{ post.url }})** Status: {{ post.status }} – Category: {{ post.category }} - Student: {{ post.student }} 
+
+{% assign sorted_theses = site.theses | sort: "date" | reverse %}
+{% for post in sorted_theses %}
+- **[{{ post.title }}]({{ post.url }})**  
+  - **Status:** {{ post.status }}  
+  - **Category:** {{ post.category }}  
+  - **Student:** {{ post.student }}  
+  - **Completion Date:** {{ post.date }}  
 {% endfor %}
+
