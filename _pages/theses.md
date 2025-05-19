@@ -5,7 +5,7 @@ layout: single
 author_profile: true
 ---
 
-# Bachelor's and Master's Theses (TFG & TFM)  
+<!-- 1# Bachelor's and Master's Theses (TFG & TFM)  -->
 
 🇬🇧 English: Welcome to the list of ongoing and available thesis projects that students can carry out with me. This is not an exhaustive list and many research ideas are yet to be explored. If you have a project idea or wish to discuss potential topics, feel free to reach out! I strongly encourage students to propose innovative research directions and explore new possibilities. Additionally, this section includes projects conducted in collaboration with partner universities. If you are a student at the University of Alcalá (UAH) and wish to collaborate with the University of Milano-Bicocca (UNIMIB), feel free to contact me via email. Similarly, Italian students from UNIMIB interested in research opportunities at UAH are welcome to get in touch. Below, you’ll find a selection of ongoing research topics and thesis proposals, followed by a compilation of completed theses from previous years.  
 
