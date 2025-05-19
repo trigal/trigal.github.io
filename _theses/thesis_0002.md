@@ -4,7 +4,7 @@ student: "Daniele Fiorenti"
 date: 2013-01-01
 layout: single
 permalink: /theses/thesis_0002/
-category: Bachelor Thesis - TFG
+category: undergraduate
 university: UNIMIB
 status: completed
 ---

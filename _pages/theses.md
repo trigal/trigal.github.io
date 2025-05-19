@@ -23,7 +23,7 @@ author_profile: true
 
 {% assign sorted_theses = site.theses | sort: "date" | reverse %}
 {% for post in sorted_theses %}
-- **[{{ post.title }}]({{ post.url }})** - **Status:** {{ post.status }} - **Category:** {{ post.category }}  - **Student:** {{ post.student }}   
+- **[{{ post.title }}]({{ post.url }})** - **Status:** {{ post.status }} - **Category:** {{ post.category }}   
 {% endfor %}
 
 <!--

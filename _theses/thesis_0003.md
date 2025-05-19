@@ -4,7 +4,7 @@ student: "Alfredo De Santis"
 date: 2015-01-01
 layout: single
 permalink: /theses/thesis_0003/
-category: Bachelor Thesis - TFG
+category: undergraduate
 university: UNIMIB
 status: completed
 ---
