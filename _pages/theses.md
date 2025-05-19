@@ -30,8 +30,9 @@ author_profile: true
 ## **Previous Theses List**  
 {% assign sorted_theses = site.theses | where_exp: "post", "post.category != 'Available Thesis Proposal'" | sort: "date" | reverse %}
 {% for post in sorted_theses %}
-- **[{{ post.title }}]({{ post.url }})** - **Status:** {{ post.status }} - **Category:** {{ post.category }} - **Student:** {{ post.student }} - **Completion Date:** {{ post.date }}  
+- **[{{ post.title }}]({{ post.url }})** - **Status:** {{ post.status }} - **Category:** {{ post.category }} - **Student:** {{ post.student }} - **Completion Date:** {{ post.date | date: "%Y" }}  
 {% endfor %}
+
 
 <!--
 ## **Previous Theses List**  
