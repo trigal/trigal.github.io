@@ -12,6 +12,7 @@ status: completed
 # Embedded Systems Development with ARM  
 This thesis focuses on a calibration system for a LiDAR device.  
 
-**Supervisor:** Dr. Juan Pérez  
+**Tutor:** Augusto Luis Ballardini
+**Advisor:** Domenico Giorgio Sorrenti
 **Completion Date:** 2013  
 **University link:** https://ira.disco.unimib.it/people/ballardini-augusto-luis/
