@@ -19,11 +19,18 @@ author_profile: true
 
 ---
 
-## **Previous Theses List**  
+## **Available Thesis Proposals**  
+{% assign sorted_available = site.theses | where: "category", "Available Thesis Proposal" | sort: "date" | reverse %}
+{% for post in sorted_available %}
+- **[{{ post.title }}]({{ post.url }})** - **Status:** {{ post.status }} - **University:** {{ post.university }}  
+{% endfor %}
 
-{% assign sorted_theses = site.theses | sort: "date" | reverse %}
+---
+
+## **Previous Theses List**  
+{% assign sorted_theses = site.theses | where_exp: "post", "post.category != 'Available Thesis Proposal'" | sort: "date" | reverse %}
 {% for post in sorted_theses %}
-- **[{{ post.title }}]({{ post.url }})** - **Status:** {{ post.status }} - **Category:** {{ post.category }}   
+- **[{{ post.title }}]({{ post.url }})** - **Status:** {{ post.status }} - **Category:** {{ post.category }} - **Student:** {{ post.student }} - **Completion Date:** {{ post.date }}  
 {% endfor %}
 
 <!--
