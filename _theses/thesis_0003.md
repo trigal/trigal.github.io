@@ -12,7 +12,8 @@ status: completed
 # Embedded Systems Development with ARM  
 Performing automatic point cloud merging on the laser scanner SickLms 200 and performing odometry on Robosoft Robuter  
 
-**Tutor:** Augusto Luis Ballardini
-**Advisor:** Domenico Giorgio Sorrenti
+**Tutor:** Augusto Luis Ballardini  
+**Advisor:** Domenico Giorgio Sorrenti  
 **Completion Date:** 2013  
-**University link:** https://ira.disco.unimib.it/people/ballardini-augusto-luis/
+[University link](https://ira.disco.unimib.it/people/ballardini-augusto-luis/)
+
