@@ -3,7 +3,7 @@ title: "A laser device and its calibration for the 3D Mapping Ground Truth proje
 student: "Elio Salanitri"
 date: 2013
 layout: single
-permalink: /theses/thesis1/
+permalink: /theses/thesis_0001/
 category: Bachelor Thesis - TFG
 university: UNIMIB
 ---
