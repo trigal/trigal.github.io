@@ -26,7 +26,9 @@ author_profile: true
 - **[{{ post.title }}]({{ post.url }})** - **Status:** {{ post.status }} - **Category:** {{ post.category }}  - **Student:** {{ post.student }}   
 {% endfor %}
 
-%## **Previous Theses List**  
-%{% for post in site.theses %}
-%- **[{{ post.title }}]({{ post.url }})** Status: {{ post.status }} – Category: {{ post.category }} - Student: {{ post.student }} 
-%{% endfor %}
+<!--
+## **Previous Theses List**  
+{% for post in site.theses %}
+- **[{{ post.title }}]({{ post.url }})** Status: {{ post.status }} – Category: {{ post.category }} - Student: {{ post.student }} 
+{% endfor %}
+-->
