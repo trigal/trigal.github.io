@@ -29,10 +29,15 @@ author_profile: true
 
 ## **Previous Theses List**  
 {% assign sorted_theses = site.theses | where_exp: "post", "post.category != 'Available Thesis Proposal'" | sort: "date" | reverse %}
-{% assign total_theses = sorted_theses.size %}
 {% for post in sorted_theses %}
+{% if post.university == "UAH" %}
+🇪🇸
+{% elsif post.university == "UNIMIB" %}
+🇮🇹
+{% endif %}
 {{ total_theses | minus: forloop.index | plus: 1 | prepend: "0" }}. **[{{ post.title }}]({{ post.url }})** - **University:** {{ post.university }} - **Category:** {{ post.category }} - **Student:** {{ post.student }} - **Completion Date:** {{ post.date | date: "%Y" }}  
 {% endfor %}
+
 
 
 
