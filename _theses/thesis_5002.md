@@ -1,5 +1,5 @@
 ---
-title: "Evaluación de un Sistema de Detección de Intenciones de Peatones usando Machine Learning"
+title: "Evaluación de un Sistema de Detección de Intenciones de Peatones usando técnicas de Machine Learning"
 student: "Disponible"
 date: 2025-01-01
 layout: single
