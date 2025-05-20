@@ -24,7 +24,7 @@ author_profile: true
 {% assign total_available = sorted_available.size %}
 {% for post in sorted_available %}
 {% assign number = total_available | minus: forloop.index | plus: 1 | prepend: "000" | slice: -3, 3 %}
-{{ number }}. - {% if post.university == "UAH" %}🇪🇸{% elsif post.university == "UNIMIB" %}🇮🇹{% elsif post.university == "UAH/UNIMIB" %}🇪🇸🇮🇹{% endif %}
+{{ number }}. \- {% if post.university == "UAH" %}🇪🇸{% elsif post.university == "UNIMIB" %}🇮🇹{% elsif post.university == "UAH/UNIMIB" %}🇪🇸/🇮🇹{% endif %} \- 
 **[{{ post.title }}]({{ post.url }})** - **Status:** {{ post.status }} - **University:** {{ post.university }}  
 {% endfor %}
 
