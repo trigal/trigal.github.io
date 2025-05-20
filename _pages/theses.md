@@ -46,7 +46,7 @@ author_profile: true
 {% assign total_theses = sorted_theses.size %}
 {% for post in sorted_theses %}
 {% assign number = total_theses | minus: forloop.index | plus: 1 | prepend: "000" | slice: -3, 3 %}
-{{ number }}. - {% if post.university == "UAH" %}🇪🇸{% elsif post.university == "UNIMIB" %}🇮🇹{% elsif post.university == "UAH/UNIMIB" %}🇪🇸/🇮🇹{% endif %} - 
+{{ number }}. \- {% if post.university == "UAH" %}🇪🇸{% elsif post.university == "UNIMIB" %}🇮🇹{% elsif post.university == "UAH/UNIMIB" %}🇪🇸/🇮🇹{% endif %} \- 
 **[{{ post.title }}]({{ post.url }})** - **University:** {{ post.university }} - **Category:** {{ post.category }} - **Student:** {{ post.student }} - **Completion Date:** {{ post.date | date: "%Y" }}  
 {% endfor %}
 
