@@ -16,7 +16,6 @@ description              : &description "PhD"
 url                      : https://trigal.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "trigal.github.io"
-=======
 title                    : "Your Name / Site Title"
 title_separator          : "-"
 name                     : "Augusto Luis Ballardini, PhD"
