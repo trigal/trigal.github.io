@@ -1,7 +1,6 @@
 ---
 permalink: /
 title: "Augusto Luis Ballardini"
-excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
