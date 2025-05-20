@@ -21,9 +21,21 @@ author_profile: true
 
 ## **Available Thesis Proposals**  
 {% assign sorted_available = site.theses | where: "category", "Available Thesis Proposal" | sort: "date" | reverse %}
+{% assign total_available = sorted_available.size %}
+{% for post in sorted_available %}
+{% assign number = total_available | minus: forloop.index | plus: 1 | prepend: "000" | slice: -3, 3 %}
+{{ number }}. {% if post.university == "UAH" %}🇪🇸{% elsif post.university == "UNIMIB" %}🇮🇹{% elsif post.university == "UAH/UNIMIB" %}🇪🇸🇮🇹{% endif %}
+**[{{ post.title }}]({{ post.url }})** - **Status:** {{ post.status }} - **University:** {{ post.university }}  
+{% endfor %}
+
+
+<!--
+## **Available Thesis Proposals**  
+{% assign sorted_available = site.theses | where: "category", "Available Thesis Proposal" | sort: "date" | reverse %}
 {% for post in sorted_available %}
 - **[{{ post.title }}]({{ post.url }})** - **Status:** {{ post.status }} - **University:** {{ post.university }}  
 {% endfor %}
+-->
 
 ---
 
