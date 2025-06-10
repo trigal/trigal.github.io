@@ -5,6 +5,8 @@ type: "Undergraduate"
 permalink: /teaching/2025-sistemasentiemporeal
 venue: "Universidad de Alcala"
 location: "Alcala de Henares, Spain"
+year_start: 2024
+year_end: 2025
 ---
 
 El incremento en fiabilidad y velocidad de proceso de los ordenadores, junto con una disminución en su tamaño y precio, ha hecho que los encontremos en todos los ámbitos de nuestra vida, desde un teléfono móvil hasta el control del tráfico aéreo. Una de las áreas de expansión más rápida de la explotación de ordenadores es la relacionada con los sistemas empotrados y de tiempo real. Estas áreas necesitan procesar información con el objetivo de controlar procesos. Se ha estimado que más del 90 por ciento de la producción mundial de microprocesadores se utiliza en este tipo de sistemas. Estas aplicaciones plantean requisitos específicos para lo lenguajes de programación necesarios para programarlos, ya que tienen características diferentes de las aplicaciones de procesamiento de información tradicionales.  
