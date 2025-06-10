@@ -47,16 +47,13 @@ layout: default
           
 
         {% if page.collection == 'teaching' %}
-          <p> {{ page.type }}, <i>{{ page.venue }}</i>, 
-          {% if page.year_start and page.year_end %}
-            {{ page.year_start }} - {{ page.year_end }}
-          {% elsif page.date %}
-            {{ page.date | date: "%Y" }}
-          {% else %}
-            Año no especificado
+          <p> {{ page.type }}{% if page.venue %}, <i>{{ page.venue }}</i>{% endif %}
+          {% if page.year_start and page.year_end %}, {{ page.year_start }} - {{ page.year_end }}
+          {% elsif page.date %}, {{ page.date | date: "%Y" }}
           {% endif %}
           </p>
         {% endif %}
+
   
 
           
