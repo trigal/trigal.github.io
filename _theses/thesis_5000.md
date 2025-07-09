@@ -6,7 +6,7 @@ layout: single
 permalink: /theses/sentinel/
 category: "Available Thesis Proposal"
 university: UAH
-status: "Open"
+status: "Assigned / In progress"
 ---
 
 # **Sistemas en Tiempo Real - Sistemas Embebidos**  
