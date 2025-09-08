@@ -23,7 +23,7 @@ Este proyecto busca mejorar la navegación de vehículos autónomos a través de
 ### **Lo que aprenderás**  
 - Uso avanzado de **CARLA** y simulaciones en **Unreal Engine**.  
 - Evaluación de **Modelos de Lenguaje (LLMs)** en contextos de navegación autónoma.  
-- Aplicaciones de **ASP/DLV (Answer Set Programming)** para la inferencia semántica.  
+- Si es posible, aplicaciones de **ASP/DLV (Answer Set Programming)** para la inferencia semántica.  
 
 ---
 
@@ -43,4 +43,4 @@ This project aims to enhance **autonomous vehicle navigation** by leveraging **k
 ### **What You’ll Learn**  
 - Advanced use of **CARLA** and simulations in **Unreal Engine**.  
 - Assessment of **Language Models (LLMs)** in navigation-based AI.  
-- **ASP/DLV (Answer Set Programming)** applications for semantic inference.  
+- If possible, **ASP/DLV (Answer Set Programming)** applications for semantic inference.  
