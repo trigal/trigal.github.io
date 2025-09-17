@@ -6,7 +6,7 @@ layout: single
 permalink: /theses/humanav/
 category: "Available Thesis Proposal"
 university: UAH
-status: "Open"
+status: "Assigned / In progress"
 ---
 
 # **HUMANAV: Navegación Semántica Humanizada para Conducción Autónoma usando Representación del Conocimiento y Modelos de Lenguaje**  
