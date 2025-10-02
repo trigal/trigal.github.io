@@ -14,6 +14,8 @@ Augusto Luis Ballardini was born in Buenos Aires, Argentina, in 1984. He receive
 
 In 2024, the Universidad de Alcalá granted him a position as a professor (Profesor Ayudante Doctor) through the University Talent Retention Program, and he began this position in January 2025. Additionally, in 2024, he received the Acreditación Nacional para el acceso al Cuerpo de Profesor Titular de Universidad (National Accreditation for Access to the Rank of University Professor).
 
+In 2025, he was awarded a Ramón y Cajal research position by the Spanish Ministry of Science, Innovation and Universities, one of Spain's most competitive and prestigious programs for scientific excellence and talent consolidation. This recognition further strengthens his academic career in autonomous perception and navigation and reflects his commitment to high-impact research and knowledge transfer within the university environment.
+
 Since 2015, he has been an IEEE and ITS Society member. His research focuses on autonomous vehicle localization and data-fusion systems, leveraging heterogeneous data sources such as digital maps, LiDAR, and image data, along with computer vision and machine learning algorithms.
 
 Contacts
