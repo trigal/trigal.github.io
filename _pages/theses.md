@@ -20,6 +20,34 @@ author_profile: true
 ---
 
 ## **Available Thesis Proposals**  
+
+### 🟢 Open
+{% assign open_available = site.theses | where: "category", "Available Thesis Proposal" | where: "status", "Open" | sort: "date" | reverse %}
+{% assign total_open = open_available.size %}
+{% for post in open_available %}
+{% assign number = total_open | minus: forloop.index | plus: 1 | prepend: "000" | slice: -3, 3 %}
+{{ number }}. \- {% if post.university == "UAH" %}🇪🇸{% elsif post.university == "UNIMIB" %}🇮🇹{% elsif post.university == "UAH/UNIMIB" %}🇪🇸/🇮🇹{% endif %} \- 
+**[{{ post.title }}]({{ post.url }})** - **Status:** {{ post.status }} - **University:** {{ post.university }}  
+{% endfor %}
+
+---
+
+### 🟡 Assigned / In progress
+💬 Interested in similar topics?
+If you're curious about any of the theses listed below—even if they're already assigned—feel free to reach out. We can explore related ideas in the same research area and see if we can shape a new project together. Many themes are adaptable, and I’m happy to discuss possibilities that align with your interests.
+
+{% assign assigned_available = site.theses | where: "category", "Available Thesis Proposal" | where: "status", "Assigned / In progress" | sort: "date" | reverse %}
+{% assign total_assigned = assigned_available.size %}
+{% for post in assigned_available %}
+{% assign number = total_assigned | minus: forloop.index | plus: 1 | prepend: "000" | slice: -3, 3 %}
+{{ number }}. \- {% if post.university == "UAH" %}🇪🇸{% elsif post.university == "UNIMIB" %}🇮🇹{% elsif post.university == "UAH/UNIMIB" %}🇪🇸/🇮🇹{% endif %} \- 
+**[{{ post.title }}]({{ post.url }})** - **Status:** {{ post.status }} - **University:** {{ post.university }}  
+{% endfor %}
+
+<!--
+previous
+
+## **Available Thesis Proposals**  
 {% assign sorted_available = site.theses | where: "category", "Available Thesis Proposal" | sort: "date" | reverse %}
 {% assign total_available = sorted_available.size %}
 {% for post in sorted_available %}
@@ -29,7 +57,7 @@ author_profile: true
 {% endfor %}
 
 
-<!--
+
 ## **Available Thesis Proposals**  
 {% assign sorted_available = site.theses | where: "category", "Available Thesis Proposal" | sort: "date" | reverse %}
 {% for post in sorted_available %}
