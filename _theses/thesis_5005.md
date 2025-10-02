@@ -6,7 +6,7 @@ layout: single
 permalink: /theses/emotional-radar/
 category: "Available Thesis Proposal"
 university: UAH
-status: "Assigned / In progress"
+status: "Open"
 ---
 
 # **Sistemas en Tiempo Real - Sistemas Embebidos**  
