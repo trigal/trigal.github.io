@@ -34,7 +34,8 @@ author_profile: true
 
 ### 🟡 Assigned / In progress
 💬 Interested in similar topics?
-If you're curious about any of the theses listed below—even if they're already assigned—feel free to reach out. We can explore related ideas in the same research area and see if we can shape a new project together. Many themes are adaptable, and I’m happy to discuss possibilities that align with your interests.
+🇬🇧 English: If you're curious about any of the theses listed below (even if they're already assigned!), feel free to reach out. We can explore related ideas in the same research area and see if we can shape a new project together. Many themes are adaptable, and I’m happy to discuss possibilities that align with your interests.
+🇪🇸 Español: ¿Te interesa alguno de los trabajos que ves abajo (aunque ya esté asignado)? Escríbeme sin problema. Podemos hablar sobre ideas parecidas en la misma línea de investigación y ver si podemos montar un nuevo proyecto juntos. Hay muchos temas que se pueden adaptar, y estoy encantado de explorar opciones que encajen con tus intereses.
 
 {% assign assigned_available = site.theses | where: "category", "Available Thesis Proposal" | where: "status", "Assigned / In progress" | sort: "date" | reverse %}
 {% assign total_assigned = assigned_available.size %}
