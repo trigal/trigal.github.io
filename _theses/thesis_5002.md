@@ -7,6 +7,7 @@ permalink: /theses/graph_nn/
 category: "Available Thesis Proposal"
 university: UAH
 status: "Assigned / In progress"
+repository: https://github.com/invett/TFG.BAL.003.GNN
 ---
 
 # **Redes Neuronales en Grafos / Knowledge Graphs (KG) / Knowledge Graph Embeddings (KGE)**  
