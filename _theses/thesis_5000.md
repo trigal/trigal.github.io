@@ -7,6 +7,7 @@ permalink: /theses/sentinel/
 category: "Available Thesis Proposal"
 university: UAH
 status: "Assigned / In progress"
+repository: https://github.com/invett/TFG.BAL.001.SENSE
 ---
 
 # **Sistemas en Tiempo Real - Sistemas Embebidos**  
