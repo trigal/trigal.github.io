@@ -1,0 +1,41 @@
+---
+title: 'SSH Tunneling'
+date: 2025_11_12
+permalink: /posts/2025/11/port-forwarding/
+tags:
+  - routing
+  - anydesk
+  - forticlient
+---
+
+It seems that the VPN software we use at my university, a version of Forticlient, has some issues with route creation. Every time I set up Forticlient, all traffic gets redirected to the VPN gateway.
+
+The problem is that some university machines are unknown to that gateway, so whenever I connect to the VPN, I lose access to certain systems. This also happens, for example, with the Anydesk network.
+
+I ended up using the following lines of code to fix the routing. In this setup:
+- `192.168.16.10` is the Forticlient VPN server,
+- `84.17.62.0` is the Anydesk network (you’ll need to identify this yourself before modifying routes),
+- `192.168.151.27` is the IP of my DGX system.
+
+```
+# deletes the default forticlient route "ALL GOES TO FORTICLIENT"
+sudo route del -net 0.0.0.0 netmask 0.0.0.0 gw 192.168.16.10 dev ppp0 metric 0
+
+# routes 84.17.62.0 which is the network of anydesk to the wired interface directly
+sudo route add -net 84.17.62.0 netmask 255.255.255.0 metric 0 dev enx1ce192ff37f8 gw 192.168.67.254
+
+# add a route to the dgx ip address through the forticlient interface (ppp0)
+sudo route add -net 192.168.151.27 netmask 255.255.255.255 metric 0 dev ppp0 gw 192.168.16.10
+```
+
+Hope that’s helpful :-)
+
+Augusto
+
+
+
+
+
+
+
+
