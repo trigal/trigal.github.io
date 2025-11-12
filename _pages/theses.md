@@ -44,10 +44,22 @@ author_profile: true
 {% assign number = total_assigned | minus: forloop.index | plus: 1 | prepend: "000" | slice: -3, 3 %}
 {{ number }}. \- {% if post.university == "UAH" %}🇪🇸{% elsif post.university == "UNIMIB" %}🇮🇹{% elsif post.university == "UAH/UNIMIB" %}🇪🇸/🇮🇹{% endif %} \- 
 **[{{ post.title }}]({{ post.url }})** - **Status:** {{ post.status }} - **University:** {{ post.university }}  
+<dl>
+<dd><strong>Repository:</strong> {% if post.repository %}<a href="{{ post.repository }}" target="_blank">View Project Repository</a>{% else %}No URL currently available{% endif %}</dd>
+</dl>
 {% endfor %}
 
 <!--
 previous
+
+{% assign assigned_available = site.theses | where: "category", "Available Thesis Proposal" | where: "status", "Assigned / In progress" | sort: "date" | reverse %}
+{% assign total_assigned = assigned_available.size %}
+{% for post in assigned_available %}
+{% assign number = total_assigned | minus: forloop.index | plus: 1 | prepend: "000" | slice: -3, 3 %}
+{{ number }}. \- {% if post.university == "UAH" %}🇪🇸{% elsif post.university == "UNIMIB" %}🇮🇹{% elsif post.university == "UAH/UNIMIB" %}🇪🇸/🇮🇹{% endif %} \- 
+**[{{ post.title }}]({{ post.url }})** - **Status:** {{ post.status }} - **University:** {{ post.university }}  
+{% endfor %}
+
 
 ## **Available Thesis Proposals**  
 {% assign sorted_available = site.theses | where: "category", "Available Thesis Proposal" | sort: "date" | reverse %}
@@ -70,7 +82,20 @@ previous
 ---
 
 
+## **Previous Theses List** 
+{% assign sorted_theses = site.theses | where_exp: "post", "post.category != 'Available Thesis Proposal'" | sort: "date" | reverse %}
+{% assign total_theses = sorted_theses.size %}
+{% for post in sorted_theses %}
+{% assign number = total_theses | minus: forloop.index | plus: 1 | prepend: "000" | slice: -3, 3 %}
+{{ number }}. \- {% if post.university == "UAH" %}🇪🇸{% elsif post.university == "UNIMIB" %}🇮🇹{% elsif post.university == "UAH/UNIMIB" %}🇪🇸/🇮🇹{% endif %} \- 
+**[{{ post.title }}]({{ post.url }})** - **University:** {{ post.university }} - **Category:** {{ post.category }} - **Student:** {{ post.student }} - **Completion Date:** {{ post.date | date: "%Y" }}  
+<dl>
+<dd><strong>Repository:</strong> {% if post.repository %}<a href="{{ post.repository }}" target="_blank">View Project Repository</a>{% else %}No URL currently available{% endif %}</dd>
+</dl>
+{% endfor %}
 
+
+<!--
 ## **Previous Theses List**  
 {% assign sorted_theses = site.theses | where_exp: "post", "post.category != 'Available Thesis Proposal'" | sort: "date" | reverse %}
 {% assign total_theses = sorted_theses.size %}
@@ -81,7 +106,6 @@ previous
 {% endfor %}
 
 
-<!--
 ## **Previous Theses List**  
 {% assign sorted_theses = site.theses | where_exp: "post", "post.category != 'Available Thesis Proposal'" | sort: "date" | reverse %}
 {% assign total_theses = sorted_theses.size %}
