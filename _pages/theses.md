@@ -40,14 +40,19 @@ author_profile: true
 
 {% assign assigned_available = site.theses | where: "category", "Available Thesis Proposal" | where: "status", "Assigned / In progress" | sort: "date" | reverse %}
 {% assign total_assigned = assigned_available.size %}
+<ol>
 {% for post in assigned_available %}
 {% assign number = total_assigned | minus: forloop.index | plus: 1 | prepend: "000" | slice: -3, 3 %}
-{{ number }}. \- {% if post.university == "UAH" %}🇪🇸{% elsif post.university == "UNIMIB" %}🇮🇹{% elsif post.university == "UAH/UNIMIB" %}🇪🇸/🇮🇹{% endif %} \- 
-**[{{ post.title }}]({{ post.url }})** - **Status:** {{ post.status }} - **University:** {{ post.university }}  
-<dl>
-<dd><strong>Repository:</strong> {% if post.repository %}<a href="{{ post.repository }}" target="_blank">View Project Repository</a>{% else %}No URL currently available{% endif %}</dd>
-</dl>
+<li>
+    {% comment %} Remove {{ number }}. - as <li> handles numbering {% endcomment %}
+    {% if post.university == "UAH" %}🇪🇸{% elsif post.university == "UNIMIB" %}🇮🇹{% elsif post.university == "UAH/UNIMIB" %}🇪🇸/🇮🇹{% endif %} \- 
+    **[{{ post.title }}]({{ post.url }})** - **Status:** {{ post.status }} - **University:** {{ post.university }}  
+    <p style="margin-top: 5px; margin-bottom: 5px; font-size: 0.95em;">
+    <strong>Repository:</strong> {% if post.repository %}<a href="{{ post.repository }}" target="_blank">View Project Repository</a>{% else %}No URL currently available{% endif %}
+    </p>
+</li>
 {% endfor %}
+</ol>
 
 <!--
 previous
@@ -85,14 +90,19 @@ previous
 ## **Previous Theses List** 
 {% assign sorted_theses = site.theses | where_exp: "post", "post.category != 'Available Thesis Proposal'" | sort: "date" | reverse %}
 {% assign total_theses = sorted_theses.size %}
+<ol>
 {% for post in sorted_theses %}
 {% assign number = total_theses | minus: forloop.index | plus: 1 | prepend: "000" | slice: -3, 3 %}
-{{ number }}. \- {% if post.university == "UAH" %}🇪🇸{% elsif post.university == "UNIMIB" %}🇮🇹{% elsif post.university == "UAH/UNIMIB" %}🇪🇸/🇮🇹{% endif %} \- 
-**[{{ post.title }}]({{ post.url }})** - **University:** {{ post.university }} - **Category:** {{ post.category }} - **Student:** {{ post.student }} - **Completion Date:** {{ post.date | date: "%Y" }}  
-<dl>
-<dd><strong>Repository:</strong> {% if post.repository %}<a href="{{ post.repository }}" target="_blank">View Project Repository</a>{% else %}No URL currently available{% endif %}</dd>
-</dl>
+<li>
+    {% comment %} Remove {{ number }}. - as <li> handles numbering {% endcomment %}
+    {% if post.university == "UAH" %}🇪🇸{% elsif post.university == "UNIMIB" %}🇮🇹{% elsif post.university == "UAH/UNIMIB" %}🇪🇸/🇮🇹{% endif %} \- 
+    **[{{ post.title }}]({{ post.url }})** - **University:** {{ post.university }} - **Category:** {{ post.category }} - **Student:** {{ post.student }} - **Completion Date:** {{ post.date | date: "%Y" }}  
+    <p style="margin-top: 5px; margin-bottom: 5px; font-size: 0.95em;">
+    <strong>Repository:</strong> {% if post.repository %}<a href="{{ post.repository }}" target="_blank">View Project Repository</a>{% else %}No URL currently available{% endif %}
+    </p>
+</li>
 {% endfor %}
+</ol>
 
 
 <!--
