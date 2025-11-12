@@ -7,6 +7,7 @@ permalink: /theses/humanav/
 category: "Available Thesis Proposal"
 university: UAH
 status: "Assigned / In progress"
+repository: https://github.com/invett/TFG.BAL.002.CARLA_RUBEN_GABRIEL
 ---
 
 # **HUMANAV: Navegación Semántica Humanizada para Conducción Autónoma usando Representación del Conocimiento y Modelos de Lenguaje**  
