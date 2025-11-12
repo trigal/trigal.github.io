@@ -40,7 +40,7 @@ author_profile: true
 
 {% assign assigned_available = site.theses | where: "category", "Available Thesis Proposal" | where: "status", "Assigned / In progress" | sort: "date" | reverse %}
 <ol style="list-style: none; padding-left: 0;">  {% for post in assigned_available %}
-<li style="margin-bottom: 1em; padding-left: 1.5em; text-indent: -1.5em;"> {{ forloop.index }}. \- {% if post.university == "UAH" %}🇪🇸{% elsif post.university == "UNIMIB" %}🇮🇹{% elsif post.university == "UAH/UNIMIB" %}🇪🇸/🇮🇹{% endif %} \- 
+<li style="margin-bottom: 1em; padding-left: 1.5em; text-indent: -1.5em;"> {{ forloop.index }}. - {% if post.university == "UAH" %}🇪🇸{% elsif post.university == "UNIMIB" %}🇮🇹{% elsif post.university == "UAH/UNIMIB" %}🇪🇸/🇮🇹{% endif %} - 
     <b><a href="{{ post.url }}">{{ post.title }}</a></b> - <b>Status:</b> {{ post.status }} - <b>University:</b> {{ post.university }}
     <br> <span style="display: inline-block; padding-left: 3em; font-size: 0.95em;">
     <b>Repository:</b> {% if post.repository %}<a href="{{ post.repository }}" target="_blank">View Project Repository</a>{% else %}No URL currently available{% endif %}
@@ -55,7 +55,7 @@ author_profile: true
 
 ## **Previous Theses List** {% assign sorted_theses = site.theses | where_exp: "post", "post.category != 'Available Thesis Proposal'" | sort: "date" | reverse %}
 <ol style="list-style: none; padding-left: 0;"> {% for post in sorted_theses %}
-<li style="margin-bottom: 1em; padding-left: 1.5em; text-indent: -1.5em;"> {{ forloop.index }}. \- {% if post.university == "UAH" %}🇪🇸{% elsif post.university == "UNIMIB" %}🇮🇹{% elsif post.university == "UAH/UNIMIB" %}🇪🇸/🇮🇹{% endif %} \- 
+<li style="margin-bottom: 1em; padding-left: 1.5em; text-indent: -1.5em;"> {{ forloop.index }}. - {% if post.university == "UAH" %}🇪🇸{% elsif post.university == "UNIMIB" %}🇮🇹{% elsif post.university == "UAH/UNIMIB" %}🇪🇸/🇮🇹{% endif %} - 
     <b><a href="{{ post.url }}">{{ post.title }}</a></b> - <b>University:</b> {{ post.university }} - <b>Category:</b> {{ post.category }} - <b>Student:</b> {{ post.student }} - <b>Completion Date:</b> {{ post.date | date: "%Y" }}
     <br> <span style="display: inline-block; padding-left: 3em; font-size: 0.95em;">
     <b>Repository:</b> {% if post.repository %}<a href="{{ post.repository }}" target="_blank">View Project Repository</a>{% else %}No URL currently available{% endif %}
