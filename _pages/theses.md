@@ -39,13 +39,14 @@ author_profile: true
 🇪🇸 Español: ¿Te interesa alguno de los trabajos que ves abajo (aunque ya esté asignado)? Escríbeme sin problema. Podemos hablar sobre ideas parecidas en la misma línea de investigación y ver si podemos montar un nuevo proyecto juntos. Hay muchos temas que se pueden adaptar, y estoy encantado de explorar opciones que encajen con tus intereses.
 
 {% assign assigned_available = site.theses | where: "category", "Available Thesis Proposal" | where: "status", "Assigned / In progress" | sort: "date" | reverse %}
-{% assign total_assigned = assigned_available.size %}
 <ol style="list-style: none; padding-left: 0;">  {% for post in assigned_available %}
-{% assign number = total_assigned | minus: forloop.index | plus: 1 | prepend: "000" | slice: -3, 3 %}
-<li style="margin-bottom: 1em; padding-left: 1.5em; text-indent: -1.5em;"> {{ number }}. \- {% if post.university == "UAH" %}🇪🇸{% elsif post.university == "UNIMIB" %}🇮🇹{% elsif post.university == "UAH/UNIMIB" %}🇪🇸/🇮🇹{% endif %} \- 
-    **<a href="{{ post.url }}">{{ post.title }}</a>** - **Status:** {{ post.status }} - **University:** {{ post.university }}
-    <br> <span style="display: inline-block; padding-left: 3em; font-size: 0.95em;">
-    **Repository:** {% if post.repository %}<a href="{{ post.repository }}" target="_blank">View Project Repository</a>{% else %}No URL currently available{% endif %}
+{% assign number = forloop.index | prepend: "000" | slice: -3, 3 %}
+<li style="margin-bottom: 1em; padding-left: 1.5em; text-indent: -1.5em;">
+    {{ number }}. \- {% if post.university == "UAH" %}🇪🇸{% elsif post.university == "UNIMIB" %}🇮🇹{% elsif post.university == "UAH/UNIMIB" %}🇪🇸/🇮🇹{% endif %} \- 
+    <b><a href="{{ post.url }}">{{ post.title }}</a></b> - <b>Status:</b> {{ post.status }} - <b>University:</b> {{ post.university }}
+    <br>
+    <span style="display: inline-block; padding-left: 3em; font-size: 0.95em;">
+    <b>Repository:</b> {% if post.repository %}<a href="{{ post.repository }}" target="_blank">View Project Repository</a>{% else %}No URL currently available{% endif %}
     </span>
 </li>
 {% endfor %}
@@ -86,13 +87,14 @@ previous
 
 ## **Previous Theses List** 
 {% assign sorted_theses = site.theses | where_exp: "post", "post.category != 'Available Thesis Proposal'" | sort: "date" | reverse %}
-{% assign total_theses = sorted_theses.size %}
 <ol style="list-style: none; padding-left: 0;"> {% for post in sorted_theses %}
-{% assign number = total_theses | minus: forloop.index | plus: 1 | prepend: "000" | slice: -3, 3 %}
-<li style="margin-bottom: 1em; padding-left: 1.5em; text-indent: -1.5em;"> {{ number }}. \- {% if post.university == "UAH" %}🇪🇸{% elsif post.university == "UNIMIB" %}🇮🇹{% elsif post.university == "UAH/UNIMIB" %}🇪🇸/🇮🇹{% endif %} \- 
-    **<a href="{{ post.url }}">{{ post.title }}</a>** - **University:** {{ post.university }} - **Category:** {{ post.category }} - **Student:** {{ post.student }} - **Completion Date:** {{ post.date | date: "%Y" }}
-    <br> <span style="display: inline-block; padding-left: 3em; font-size: 0.95em;">
-    **Repository:** {% if post.repository %}<a href="{{ post.repository }}" target="_blank">View Project Repository</a>{% else %}No URL currently available{% endif %}
+{% assign number = forloop.index | prepend: "000" | slice: -3, 3 %}
+<li style="margin-bottom: 1em; padding-left: 1.5em; text-indent: -1.5em;">
+    {{ number }}. \- {% if post.university == "UAH" %}🇪🇸{% elsif post.university == "UNIMIB" %}🇮🇹{% elsif post.university == "UAH/UNIMIB" %}🇪🇸/🇮🇹{% endif %} \- 
+    <b><a href="{{ post.url }}">{{ post.title }}</a></b> - <b>University:</b> {{ post.university }} - <b>Category:** {{ post.category }} - **Student:** {{ post.student }} - **Completion Date:** {{ post.date | date: "%Y" }}
+    <br>
+    <span style="display: inline-block; padding-left: 3em; font-size: 0.95em;">
+    <b>Repository:</b> {% if post.repository %}<a href="{{ post.repository }}" target="_blank">View Project Repository</a>{% else %}No URL currently available{% endif %}
     </span>
 </li>
 {% endfor %}
