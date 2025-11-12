@@ -49,44 +49,14 @@ author_profile: true
 {% endfor %}
 </ol>
 
-<!--
-previous
-
-{% assign assigned_available = site.theses | where: "category", "Available Thesis Proposal" | where: "status", "Assigned / In progress" | sort: "date" | reverse %}
-{% assign total_assigned = assigned_available.size %}
-{% for post in assigned_available %}
-{% assign number = total_assigned | minus: forloop.index | plus: 1 | prepend: "000" | slice: -3, 3 %}
-{{ number }}. \- {% if post.university == "UAH" %}🇪🇸{% elsif post.university == "UNIMIB" %}🇮🇹{% elsif post.university == "UAH/UNIMIB" %}🇪🇸/🇮🇹{% endif %} \- 
-**[{{ post.title }}]({{ post.url }})** - **Status:** {{ post.status }} - **University:** {{ post.university }}  
-{% endfor %}
-
-
-## **Available Thesis Proposals**  
-{% assign sorted_available = site.theses | where: "category", "Available Thesis Proposal" | sort: "date" | reverse %}
-{% assign total_available = sorted_available.size %}
-{% for post in sorted_available %}
-{% assign number = total_available | minus: forloop.index | plus: 1 | prepend: "000" | slice: -3, 3 %}
-{{ number }}. \- {% if post.university == "UAH" %}🇪🇸{% elsif post.university == "UNIMIB" %}🇮🇹{% elsif post.university == "UAH/UNIMIB" %}🇪🇸/🇮🇹{% endif %} \- 
-**[{{ post.title }}]({{ post.url }})** - **Status:** {{ post.status }} - **University:** {{ post.university }}  
-{% endfor %}
-
-
-
-## **Available Thesis Proposals**  
-{% assign sorted_available = site.theses | where: "category", "Available Thesis Proposal" | sort: "date" | reverse %}
-{% for post in sorted_available %}
-- **[{{ post.title }}]({{ post.url }})** - **Status:** {{ post.status }} - **University:** {{ post.university }}  
-{% endfor %}
--->
 
 ---
 
 
-## **Previous Theses List** 
-{% assign sorted_theses = site.theses | where_exp: "post", "post.category != 'Available Thesis Proposal'" | sort: "date" | reverse %}
+## **Previous Theses List** {% assign sorted_theses = site.theses | where_exp: "post", "post.category != 'Available Thesis Proposal'" | sort: "date" | reverse %}
 <ol style="list-style: none; padding-left: 0;"> {% for post in sorted_theses %}
 <li style="margin-bottom: 1em; padding-left: 1.5em; text-indent: -1.5em;"> {{ forloop.index }}. \- {% if post.university == "UAH" %}🇪🇸{% elsif post.university == "UNIMIB" %}🇮🇹{% elsif post.university == "UAH/UNIMIB" %}🇪🇸/🇮🇹{% endif %} \- 
-    <b><a href="{{ post.url }}">{{ post.title }}</a></b> - <b>University:</b> {{ post.university }} - <b>Category:** {{ post.category }} - **Student:** {{ post.student }} - **Completion Date:** {{ post.date | date: "%Y" }}
+    <b><a href="{{ post.url }}">{{ post.title }}</a></b> - <b>University:</b> {{ post.university }} - <b>Category:</b> {{ post.category }} - <b>Student:</b> {{ post.student }} - <b>Completion Date:</b> {{ post.date | date: "%Y" }}
     <br> <span style="display: inline-block; padding-left: 3em; font-size: 0.95em;">
     <b>Repository:</b> {% if post.repository %}<a href="{{ post.repository }}" target="_blank">View Project Repository</a>{% else %}No URL currently available{% endif %}
     </span>
