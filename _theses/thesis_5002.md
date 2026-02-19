@@ -1,12 +1,12 @@
 ---
 title: "Evaluación de un Sistema de Detección de Intenciones de Peatones usando técnicas de Machine Learning"
-student: "Disponible"
+student: "Adrián Rodríguez Hurtado, "
 date: 2025-01-01
 layout: single
 permalink: /theses/graph_nn/
-category: "Available Thesis Proposal"
+category: "undergraduate"
 university: UAH
-status: "Assigned / In progress"
+status: "Completed"
 repository: https://github.com/invett/TFG.BAL.003.GNN
 ---
 
