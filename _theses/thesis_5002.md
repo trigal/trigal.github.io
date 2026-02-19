@@ -1,7 +1,7 @@
 ---
 title: "Evaluación de un Sistema de Detección de Intenciones de Peatones usando técnicas de Machine Learning"
 student: "Adrián Rodríguez Hurtado, "
-date: 2025-01-01
+date: 2025-02-16
 layout: single
 permalink: /theses/graph_nn/
 category: "undergraduate"
