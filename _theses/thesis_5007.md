@@ -1,12 +1,12 @@
 ---
 title: "Estimación de intenciones de cruce mediante modelos basados en grafos y datos de cámaras de tráfico globales"
-student: "Disponible"
+student: "Rubén Sánchez Librero"
 date: 2026-01-12
 layout: single
 permalink: /theses/webcam-tracking/
 category: "Available Thesis Proposal"
 university: UAH
-status: "Open"
+status: "Assigned / In progress"
 ---
 
 # **Sistemas en Tiempo Real - Sistemas Embebidos**  
