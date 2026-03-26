@@ -7,6 +7,7 @@ permalink: /theses/webcam-tracking/
 category: "Available Thesis Proposal"
 university: UAH
 status: "Assigned / In progress"
+repository: https://github.com/invett/TFG.BAL.004.GLOBAL-CAM
 ---
 
 # **Sistemas en Tiempo Real - Sistemas Embebidos**  
