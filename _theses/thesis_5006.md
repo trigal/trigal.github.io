@@ -1,13 +1,12 @@
 ---
 title: "Sistema Predictivo de Colisiones para Asistencia en la Conducción mediante Radar y Microcontrolador"
-student: "Disponible"
+student: "Dumitru Florin Marin"
 date: 2025-10-07
 layout: single
 permalink: /theses/sentinel-collision-prediction/
-permalink: /theses/emotional-radar/
 category: "Available Thesis Proposal"
 university: UAH
-status: "Open"
+status: "Assigned / In progress"
 ---
 
 # **Sistemas en Tiempo Real - Sistemas Embebidos**  
