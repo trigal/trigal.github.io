@@ -6,6 +6,8 @@ permalink: /teaching/2013-2018-roboticsandvision
 venue: "Università degli Studi di Milano - Bicocca"
 date: 2014-01-01
 location: "Milan, Italy"
+year_start: 2013
+year_end: 2018
 ---
 
 From 2013 to 2018 I worked as teaching-assistant for the course Computer and Robot Vision, together with Prof. Domenico G. Sorrenti. For this course I prepared the material for the exam and the lectures for the robotics localization topics, including:
