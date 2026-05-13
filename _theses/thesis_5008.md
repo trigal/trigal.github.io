@@ -6,7 +6,7 @@ layout: single
 permalink: /theses/ada-embedded/
 category: "Available Thesis Proposal"
 university: UAH
-status: "Available"
+status: "Open"
 repository: https://github.com/invett/TFG.BAL.ADA.EMBEDDED
 ---
 
