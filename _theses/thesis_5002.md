@@ -8,7 +8,7 @@ category: "undergraduate"
 university: UAH
 status: "Completed"
 repository: https://github.com/invett/TFG.BAL.003.GNN
-thesis link: https://ebuah.uah.es/dspace/handle/10017/69290
+thesis: https://ebuah.uah.es/dspace/handle/10017/69290
 ---
 
 # **Redes Neuronales en Grafos / Knowledge Graphs (KG) / Knowledge Graph Embeddings (KGE)**  
