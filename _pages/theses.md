@@ -58,7 +58,8 @@ author_profile: true
 <li style="margin-bottom: 1em; padding-left: 1.5em; text-indent: -1.5em;"> {{ forloop.index }}. - {% if post.university == "UAH" %}🇪🇸{% elsif post.university == "UNIMIB" %}🇮🇹{% elsif post.university == "UAH/UNIMIB" %}🇪🇸/🇮🇹{% endif %} - 
     <b><a href="{{ post.url }}">{{ post.title }}</a></b> - <b>University:</b> {{ post.university }} - <b>Category:</b> {{ post.category }} - <b>Student:</b> {{ post.student }} - <b>Completion Date:</b> {{ post.date | date: "%Y" }}
     <br> <span style="display: inline-block; padding-left: 3em; font-size: 0.95em;">
-    <b>Repository:</b> {% if post.repository %}<a href="{{ post.repository }}" target="_blank">View Project Repository</a>{% else %}No URL currently available{% endif %}
+    <b>Repository:</b> {% if post.repository %}<a href="{{ post.repository }}" target="_blank">View Project Repository</a>{% else %}No URL currently available.{% endif %}
+    <b>Thesis link:</b> {% if post.thesis %}<a href="{{ post.thesis }}" target="_blank">View Thesis</a>{% else %Not available online yet. Please ask me by email.{% endif %}
     </span>
 </li>
 {% endfor %}
