@@ -8,6 +8,7 @@ category: "undergraduate"
 university: UAH
 status: "Completed"
 repository: https://github.com/invett/TFG.BAL.004.GLOBAL-CAM
+thesis: https://trigal.github.io/files/TFG_Sanchez_Librero__Ruben.pdf
 ---
 
 # **Sistemas en Tiempo Real - Sistemas Embebidos**  
