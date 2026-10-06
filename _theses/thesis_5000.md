@@ -4,9 +4,9 @@ student: "Luis Alonso Palancar"
 date: 2025-05-01
 layout: single
 permalink: /theses/sentinel/
-category: "Available Thesis Proposal"
+category: "undergraduate"
 university: UAH
-status: "Assigned / In progress"
+status: "Completed"
 repository: https://github.com/invett/TFG.BAL.001.SENSE
 ---
 
