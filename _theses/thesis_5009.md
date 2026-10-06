@@ -8,7 +8,7 @@ category: "undergraduate"
 university: UAH
 status: "Completed"
 repository: https://github.com/invett/TFG.BAL.002.CARLA_RUBEN_GABRIEL
-thesis: https://trigal.github.io/files/Sanz_Noguerales__Ruben.pdf
+thesis: https://trigal.github.io/files/TFG_Sanz_Noguerales__Ruben.pdf
 ---
 
 # **HUMANAV: Navegación Semántica Humanizada para Conducción Autónoma usando Representación del Conocimiento y Modelos de Lenguaje**  
