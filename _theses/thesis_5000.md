@@ -8,6 +8,7 @@ category: "undergraduate"
 university: UAH
 status: "Completed"
 repository: https://github.com/invett/TFG.BAL.001.SENSE
+thesis: https://trigal.github.io/files/TFG_Alonso_Palancar_Luis.pdf
 ---
 
 # **Sistemas en Tiempo Real - Sistemas Embebidos**  
