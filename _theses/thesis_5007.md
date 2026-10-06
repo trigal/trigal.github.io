@@ -4,9 +4,9 @@ student: "Rubén Sánchez Librero"
 date: 2026-01-12
 layout: single
 permalink: /theses/webcam-tracking/
-category: "Available Thesis Proposal"
+category: "undergraduate"
 university: UAH
-status: "Assigned / In progress"
+status: "Completed"
 repository: https://github.com/invett/TFG.BAL.004.GLOBAL-CAM
 ---
 
